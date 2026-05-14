@@ -4,7 +4,13 @@ A static [Firejail](https://github.com/netblue30/firejail) profile for running [
 
 Follow-up to [marekrost/firejail-claude-dynamic-profile](https://github.com/marekrost/firejail-claude-dynamic-profile) — same goal, but a single declarative profile instead of a generator.
 
-## Install
+## Requirements
+
+The following must be available in PATH:
+- Firejail
+- Claude Code
+
+## Installation
 
 Drop `claude.profile` into `~/.config/firejail/` and add an alias:
 

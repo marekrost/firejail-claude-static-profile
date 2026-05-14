@@ -18,7 +18,8 @@ noroot                                                 # Prevent root access
 seccomp                                                # Apply the default seccomp-bpf filter (blocks dangerous syscalls)
 private-tmp                                            # Private /tmp directory
 private-dev                                            # Mount a minimal /dev (no raw devices, kvm, etc.)
-netfilter                                              # Default iptables firewall
+net default                                            # Requires SUID: Network isolation
+netfilter                                              # Requires SUID: Default iptables firewall
 protocol unix,inet,inet6                               # Drop netlink/packet/bluetooth/etc. socket families
 nosound                                                # Disable access to /dev/snd and audio servers (PulseAudio/PipeWire)
 no3d                                                   # Disable GPU access (/dev/dri, /dev/nvidia*)
