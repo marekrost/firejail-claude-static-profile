@@ -1,8 +1,6 @@
-# firejail-claude-static-profile
+# Firejail Sandbox Profile for Claude Code
 
 A static [Firejail](https://github.com/netblue30/firejail) profile for running [Claude Code](https://claude.com/claude-code) in a hardened sandbox.
-
-Follow-up to [marekrost/firejail-claude-dynamic-profile](https://github.com/marekrost/firejail-claude-dynamic-profile) — same goal, but a single declarative profile instead of a generator.
 
 ## Requirements
 
